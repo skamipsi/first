@@ -6,4 +6,4 @@ foreach ($mass as $element)
     $result += $element*$element;
 
 }
-echo "Сумма квадратов элементов массива =".$result;
+echo "Сумма квадратов элементов массива = ".$result;
