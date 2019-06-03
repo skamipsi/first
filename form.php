@@ -29,8 +29,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     */
 
     $operand1 = floatval($_POST['operand1']);
-    $operator = $_POST['operator'];
     $operand2 = floatval($_POST['operand2']);
+    $operator = $_POST['operator'];
 
     switch ($operator) {
         case '+':
@@ -52,4 +52,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
  //   echo $operand1 . ' ' . $operator . ' ' . $operand2 . ' = ' . $result;
 }
 
-include 'form.html';
+include 'form.tpl.php';
