@@ -52,4 +52,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
  //   echo $operand1 . ' ' . $operator . ' ' . $operand2 . ' = ' . $result;
 }
 
-include 'form.tpl.php';
+include 'register.tpl.php';

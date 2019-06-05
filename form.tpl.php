@@ -6,6 +6,7 @@
 </head>
 <body>
     <form method="post" action="form.php">
+        <label for
         <input name="operand1" value="<?= $operand1 ?>">
         <select name="operator">
                 <option value="+" <?php if ($operator == '+'): ?>selected<?php endif ?>>+</option>
