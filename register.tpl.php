@@ -31,6 +31,14 @@
 
 </form>
 
+<form method="get" action="readuser.php">
+    <button type="submit" id="read">Считать</button>
+    <table>
+
+
+    </table>
+</form>
+
 
 </body>
 </html>

@@ -35,4 +35,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 }
 
+if (readUser($arr)){
+    while ($arr as $user=>$dannie)
+}
+
 include 'register.tpl.php';
