@@ -20,6 +20,5 @@ if($file)
     $table .= '</table>';
     echo $table;
     fclose($file);
-    echo '<a class="external" href="reg_sub_read.html"><b><i>На главную</i></b></a>';
-
+    echo '<br><a class="external" href="reg_sub_read.html"><b><i>На главную</i></b></a>';
 }
