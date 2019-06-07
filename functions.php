@@ -37,3 +37,16 @@ function readUser()
     fclose($file);
 
 }
+
+function saveEmail(string $email): bool
+{
+    $file = fopen('subscribers.txt', 'a');
+    if($file === false)
+    {
+        return false;
+    }
+    $row = sprintf("%s\n", $email);
+    fputs($file, $row);
+    fclose($file);
+    return true;
+}
