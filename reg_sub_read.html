@@ -14,16 +14,12 @@
 
     <input type="text" id="first_name" name="first_name" placeholder="Имя">
     <br>
-
     <input type="text" id="last_name" name="last_name" placeholder="Фамилия">
     <br>
-
     <input type="email" id="email" name="email" placeholder="Email@">
     <br>
-
     <input type="password" id="password" name="password" placeholder="Пароль">
     <br>
-
     <button type="submit">Зарегистрировать</button>
 
 </form>
@@ -36,11 +32,9 @@
 <br>
 
 Подписка:
-<form method="get" action="subscribe.php">
-    <input type="email" id="emailSub" placeholder="Email">
+<form method="post" action="subscribe.php">
+    <input type="email" id="emailSub" placeholder="Email" name="email">
     <button type="submit">Подписаться</button>
-
-
 </form>
 </body>
 </html>
