@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
         if (empty($_POST[$parameter]))
         {
             echo '<br><a class="external" href="reg_sub_read.html"><b><i>На главную</i></b></a><br>';
-            die('Не найден элемент ' . $parameter);
+            die('Вы не ввели адрес электронной почты!' . $parameter);
         }
 
         $email = $_POST['email'];
