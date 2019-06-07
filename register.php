@@ -18,12 +18,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password'];
     if (saveUser($firstName, $lastName, $email, $password)){
         //$message = 'Пользователь зарегистрирован!';
-        echo 'Пользователь зарегистрирован';
+        echo 'Пользователь зарегистрирован<br>';
         echo '<a class="external" href="reg_sub_read.html"><b><i>На главную</i></b></a>';
     }
     else {
         //$message = 'Ошибка регистрации пользователя!';
-        echo 'Ошибка регистрации пользователя!';
+        echo 'Ошибка регистрации пользователя!<br>';
         echo '<a class="external" href="reg_sub_read.html"><b><i>На главную</i></b></a>';
     }
 }
