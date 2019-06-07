@@ -19,5 +19,5 @@ if($file)
 
     $table .= '</table>';
     echo $table;
-
+fclose($file);
 }
